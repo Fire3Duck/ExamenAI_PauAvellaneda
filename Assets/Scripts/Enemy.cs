@@ -36,8 +36,6 @@ public class Enemy : MonoBehaviour
         SetRandomPatrolPoint();
     }
 
-
-    // Update is called once per frame
     void Update()
     {
         switch (currentState)
