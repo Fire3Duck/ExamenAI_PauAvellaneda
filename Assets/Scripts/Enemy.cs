@@ -20,8 +20,8 @@ public class Enemy : MonoBehaviour
     public int indexPatrolling;
 
 
-    [SerializeField] private float _detectionRange = 4;
-    [SerializeField] private float _attackRange = 2;
+    [SerializeField] private float _detectionRange = 10;
+    [SerializeField] private float _attackRange = 4;
    
     void Awake()
     {
@@ -114,7 +114,7 @@ public class Enemy : MonoBehaviour
         Debug.Log("Attack");
 
 
-        attackTimer = 0;
+        attackTimer = 2;
     }
 
 
